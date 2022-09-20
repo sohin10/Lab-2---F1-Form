@@ -34,21 +34,27 @@ main {
 }
 
 .img-1{
-    width: 300px;
+    width: 30em;
+    z-index: 0;
 
 }
 
 .img-3{
-    width: 300px ;
+    position:absolute;
+    width: 100% ;
+    top: 0;
+    left: 0;
+    z-index: 2;
+
 }
 
-.color{
+/* .color{
     background:red;
     position:absolute;
     top:0;
     left: 0;
     width: 100%;
-    height: 50%;   
+    height: 100%;   
     z-index: 1;
     mix-blend-mode: multiply;
     
@@ -59,5 +65,5 @@ main {
     border: 1px #ccc solid;
     border-radius: 4px;
     padding: 0.3em;
-}
+} */
 
