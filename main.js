@@ -5,14 +5,14 @@
 //     console.log(firstTextInput.value);
 
     //color input
-    const color = document.querySelector('.colors');
+    const color = document.querySelector('.color');
     const colorInput = document.querySelector('color-input');
-    form.style.backgroundColor = colorInput.value;
-    colorInput.value;
+    // form.style.backgroundColor = colorInput.value;
+    // colorInput.value;
 
-    // colorInput.addEventListener('input', () => {
-    //     color.style.backgroundColor = colorInput.value;
-    // })
+    colorInput.addEventListener('input', () => {
+        color.style.backgroundcolor = colorInput.value;
+    })
 
 
     // //checkboxes input

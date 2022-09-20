@@ -49,7 +49,7 @@ main {
 }
 
 .color{
-    background:red;
+    background:rgb(240, 255, 32);
     position:absolute;
     top:0;
     left: 0;
