@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>F1 jersey design</title>
+    <link rel="stylesheet" href="main.css">
+  </head>
+  <body>
+    <main>
+        <form>
+            <label for="first-text-input"> Enter your name</label>
+            <input type="text" id="first-text-input" >
+
+            <div class="radioGroup">
+                <p id="PickTeam">Pick your favourtie Formula One Team</p>
+
+                <div class="radioItem">
+                  <input type="radio" id="ferrari" name="team" value="ferrari">
+                  <label for="ferrari">Ferrari</label>
+                </div>
+                <div class="radioItem">
+                  <input type="radio" id="merc" name="team" value="merc">
+                  <label for="merc" id="merclabel">Mercedes</label>
+                </div>
+                <div class="radioItem">
+                  <input type="radio" id="redbull" name="team" value="redbull">
+                  <label for="redbull" id="redbulllable">Redbull</label>
+                </div>
+                <div class="radioItem">
+                    <input type="radio" id="mclaren" name="team" value="mclaren">
+                    <label for="mclaren" id="mclarenlable">McLaren</label>
+                  </div>
+              </div>
+              <br>
+
+
+            <input type="number" id="jerseynum" name="jerseynum" min="1" max="10">
+            <label for="jerseynum">Select a jersey number between 1 and 10:</label>
+            <input type="submit">
+
+            <br><br>
+
+            <label for="jersey" id="jerseyLabel">Choose a jersey color</label>
+            <!-- <input type="color" id="jersey" name="jersey"> -->
+            <input type="color" class="color-input" value="#ff0000">
+            <br><br>
+
+            <button type="button" id="enter">View Design</button>
+
+
+            <div class="tshirt">
+                <img src="imgs/FrontWhite.png" class="img-1">
+                <img src="imgs/Front_full.png" class="img-3">
+
+                <!-- <img src="imgs/Front.png" class="img-2"> -->
+
+                <div class="color" > </div>
+            </div>
+
+
+            <input type="reset" value="Reset">
+            <!-- <button type="button" id="reset">Reset Design</button> -->
+
+        </form>
+    </main>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<script src="main.js"></script>
+  </body>
+</html>

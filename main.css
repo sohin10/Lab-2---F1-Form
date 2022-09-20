@@ -1,0 +1,63 @@
+body{
+    padding: 0;
+    margin: 0;
+    background: #2beccf;
+    font-family: 'Montserrat', sans-serif;
+    /* background-color: rgb(255, 255, 255); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* gap: 2em; */
+    min-height: 100vh;
+    
+}
+
+
+main {
+    width: 90%;
+    margin: auto;
+    margin-top: 2em;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    /* background: #11637e; */
+    color: rgb(106, 41, 41);
+    border: 0;
+    border-radius: 10px;
+    padding: 20px;
+  }
+
+.tshirt{
+    position: relative;
+    border-radius: 3em;
+    overflow: hidden;
+}
+
+.img-1{
+    width: 300px;
+
+}
+
+.img-3{
+    width: 300px ;
+}
+
+.color{
+    background:red;
+    position:absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 50%;   
+    z-index: 1;
+    mix-blend-mode: multiply;
+    
+}
+
+.color-input{
+    background: #fff;
+    border: 1px #ccc solid;
+    border-radius: 4px;
+    padding: 0.3em;
+}
+
