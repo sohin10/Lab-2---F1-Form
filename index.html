@@ -4,15 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>F1 jersey design</title>
-    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="car.css">
   </head>
   <body>
     <main>
         <form>
             <label for="first-text-input"> Enter your name</label>
             <input type="text" id="first-text-input" >
+            
 
             <div class="radioGroup">
+                <br>
                 <p id="PickTeam">Pick your favourtie Formula One Team</p>
 
                 <div class="radioItem">
@@ -35,46 +37,42 @@
               <br>
 
 
-            <input type="number" id="jerseynum" name="jerseynum" min="1" max="10">
-            <label for="jerseynum">Select a jersey number between 1 and 10:</label>
+            <input type="number" id="jerseynum" name="jerseynum" min="0" max="10">
+            <label for="jerseynum">Type in a jersey number less than 10</label>
             <input type="submit">
+            <br>
 
-            <br><br>
 
-            <label for="jersey" id="jerseyLabel">Choose a jersey color</label>
-            <!-- <input type="color" id="jersey" name="jersey"> -->
-            <input type="color" class="color-input" value="#ff0000">
-            <br><br>
+            <label for="color" id="color">Choose a jersey color</label>
+
+            <div class="color-wrap">
+                <input type="color" class="color" value="#ffff00">
+            </div>
+
+           
+
 
             <button type="button" id="enter">View Design</button>
+            <input type="reset" value="Reset">
 
 
-            <div class="tshirt">
-                <img src="imgs/FrontWhite.png" class="img-1">
-                <img src="imgs/Front_full.png" class="img-3">
 
-                <!-- <img src="imgs/Front.png" class="img-2"> -->
-
-                <div class="color" > </div>
+           
+            <!-- this is pngs -->
+            <div class="img-wrap">
+                <img class="shirt" src="imgs/Front_full.png" alt="">
+                <img class="tshirt" src="imgs/Front.png" alt="">
             </div>
 
 
-            <input type="reset" value="Reset">
+            
+
+
+            
             <!-- <button type="button" id="reset">Reset Design</button> -->
 
         </form>
     </main>
-
-
-
-
-
-
-
-
-
-
-
 
 
 
